@@ -1,0 +1,14 @@
+** Project C (JS): Retro Launcher Web UI
+- Display a static JSON game list
+- Grid view + detail modal
+*** Week 1
+- Figma: card layout + modal:
+- https://www.figma.com/design/Y2MoXF7mTlXCnOPPyx8w2s/Untitled?node-id=0-1&p=f&t=gCzx867XIdvQIloh-0
+- Research sorting/filtering techniques
+*** Week 2–3
+- Build grid UI + modal
+- Implement search
+*** Week 4
+- Deploy to Netlify/Vercel
+- Add README and screenshots
+---------------------------------------------------------------------
