@@ -15,8 +15,11 @@ Goals:
 
 Useful Reference Links:
 
-Related Tailwind grid link:
+Related Tailwind docs links:
+- Tailwind docs on grids:
 - https://tailwindcss.com/docs/grid-column
+- Tailwind docs on colors:
+- https://tailwindcss.com/docs/colors
 
 Related DaisyUI component links:
 - Navbar component:
