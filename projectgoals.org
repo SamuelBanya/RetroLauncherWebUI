@@ -30,6 +30,9 @@ Related DaisyUI component links:
 - https://daisyui.com/components/card/
 - Search input component:
 - https://daisyui.com/components/input/#search-input-with-icon
+
+<2026-01-01 Thu 00:49>: Need to refactor data workflow to pull from JSON file, and to be iterated instead.
+
 *** Week 4
 - Deploy to Netlify/Vercel
 - Add README and screenshots
