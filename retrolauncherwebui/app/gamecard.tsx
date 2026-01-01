@@ -1,21 +1,32 @@
-export default function GameCard() {
+export default function GameCard({
+  imageSource,
+  altText,
+  titleText,
+  developerText,
+  launchBoxLink,
+}: {
+  imageSource: string;
+  altText: string;
+  titleText: string;
+  developerText: string;
+  launchBoxLink: string;
+}) {
   return (
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="card card-xs bg-base-100 shadow-sm">
       <figure>
-        <img
-          src="/GameCoverImages/Ty the Tasmanian Tiger 2- Bush Rescue.jpg"
-          alt="Ty 2"
-        />
+        <img src={imageSource} alt={altText} />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">
-          Ty The Tasmanian Tiger 2
-          <div className="badge badge-secondary">NEW</div>
-        </h2>
-        <p>Krome Studios</p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Star</div>
-          <div className="badge badge-outline">Circle</div>
+        <h2 className="card-title">{titleText}</h2>
+        <p>{developerText}</p>
+        <p>
+          <a href={launchBoxLink}>
+            <p>LaunchBox DB Link</p>
+          </a>
+        </p>
+        <div className="card-actions justify-left">
+          <div className="badge">✴️️</div>
+          <div className="badge">☀️</div>
         </div>
       </div>
     </div>
