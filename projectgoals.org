@@ -37,3 +37,23 @@ Related DaisyUI component links:
 - Deploy to Netlify/Vercel
 - Add README and screenshots
 ---------------------------------------------------------------------
+
+<2026-01-06 Tue 00:30>: A lot has happened in the past few weeks with random stuff and being sick.
+
+However, getting back on task is interesting.
+
+I did manage to get a lot of the look done today, so it looks pretty good. The right sidebar still remains.
+
+The only major actual feature I wanted to deploy for this was the search by keyword.
+
+I wanted it to look one-for-one for Launchbox, but at no point did I want to match the functionality one for one.
+
+This really is just a proof-of-concept of whether or not we can get the same look and feel as Launchbox but within a browser.
+
+This is so we can use the same ideas within the eXoDOS project as well.
+
+Next steps would include the following:
+- Get the right side bar to look the same as the screenshot
+- Place the gamecard grid items into a JSON file and automatically pull from them upon page load
+
+Way future ideas would include to implement the search functionality, but honestly, this is something we can always revisit anyway.

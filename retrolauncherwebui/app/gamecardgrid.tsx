@@ -1,14 +1,19 @@
+"use client";
+
 import GameCard from "./gamecard";
 
 export default function GameCardGrid() {
   return (
-    <div className="flex-1 grid grid-cols-5 gap-10 p-8">
+    <div className="min-w-[1200px] flex-1 grid grid-cols-5 gap-10 p-8 h-full w-full bg-[radial-gradient(circle_at_22%_32%,_#273c40_0%,_#415f64_38%,_transparent_65%),radial-gradient(circle_at_28%_78%,_#8f4d1f_0%,_transparent_42%),radial-gradient(circle_at_70%_22%,_#7c451d_0%,_transparent_38%),radial-gradient(circle_at_center,_#1e2224_0%,_#0b0d0e_85%)]">
       <GameCard
         imageSource="/GameCoverImages/Ty the Tasmanian Tiger 2- Bush Rescue.jpg"
         altText="Ty 2"
         titleText="Ty The Tasmanian Tiger 2"
         developerText="Krome Studios"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/30885-ty-the-tasmanian-tiger-2:-bush-rescue"
+        favorited="true"
+        firstTimeViewed="true"
+        onCardClick={(link) => console.log("Card clicked: ", link)}
       />
       <GameCard
         imageSource="/GameCoverImages/Ty the Tasmanian Tiger 3- Night of the Quinkan.jpg"
@@ -16,6 +21,8 @@ export default function GameCardGrid() {
         titleText="Ty The Tasmanian Tiger 3"
         developerText="Krome Studios"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/30886-ty-the-tasmanian-tiger-3:-night-of-the-quinkan"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/UFC- Throwdown.jpg"
@@ -23,6 +30,8 @@ export default function GameCardGrid() {
         titleText="UFC Throwndown"
         developerText="Opus"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/9459-ufc:-throwdown"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Ultimate Muscle- Legends vs New Generation.png"
@@ -30,6 +39,8 @@ export default function GameCardGrid() {
         titleText="Ultimate Muscle: Legends vs New Generation"
         developerText="AKI"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/21119-ultimate-muscle:-legends-vs-new-generation"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Ultimate Spider-Man.jpg"
@@ -37,6 +48,8 @@ export default function GameCardGrid() {
         titleText="Ultimate Spider-Man"
         developerText="Treyarch"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/5189-ultimate-spider-man"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Universal Studios Theme Park Adventure.jpg"
@@ -44,6 +57,8 @@ export default function GameCardGrid() {
         titleText="Univeral Studios Theme Park Adventure"
         developerText="Nai'a Digital Works"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/18977-universal-studios-theme-park-adventure"
+        favorited="true"
+        firstTimeViewed="false"
       />
       <GameCard
         imageSource="/GameCoverImages/Vexx.jpg"
@@ -51,6 +66,17 @@ export default function GameCardGrid() {
         titleText="Vexx"
         developerText="Acclaim Studios Austin"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/11047-vexx"
+        favorited="true"
+        firstTimeViewed="true"
+      />
+      <GameCard
+        imageSource="/GameCoverImages/The Urbz- Sims in the City.jpg"
+        altText="The Urbz: Sims in the City"
+        titleText="The Urbz: Sims in the City"
+        developerText="Mavis Software"
+        launchBoxLink="https://gamesdb.launchbox-app.com/games/details/23584-the-urbz:-sims-in-the-city"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Viewtiful Joe.jpg"
@@ -58,6 +84,8 @@ export default function GameCardGrid() {
         titleText="Viewtiful Joe"
         developerText="Capcom Production Studio 4"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/68-viewtiful-joe"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Viewtiful Joe 2.jpg"
@@ -65,6 +93,8 @@ export default function GameCardGrid() {
         titleText="Viewtiful Joe 2"
         developerText="Clover Studio"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/2204-viewtiful-joe-2"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Viewtiful Joe- Red Hot Rumble.jpg"
@@ -72,6 +102,8 @@ export default function GameCardGrid() {
         titleText="Viewtiful Joe: Red Hot Rumble"
         developerText="Clover Studio"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/2205-viewtiful-joe:-red-hot-rumble"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Virtua Quest.jpg"
@@ -79,6 +111,8 @@ export default function GameCardGrid() {
         titleText="Virtua Quest"
         developerText="Sega AM2"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/26954-virtua-quest"
+        favorited="true"
+        firstTimeViewed="true"
       />
       <GameCard
         imageSource="/GameCoverImages/Virtua Striker 2002.png"
@@ -86,6 +120,8 @@ export default function GameCardGrid() {
         titleText="Virtua Striker 2002"
         developerText="Amusement Vision"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/6771-virtua-striker-2002"
+        favorited="true"
+        firstTimeViewed="false"
       />
       <GameCard
         imageSource="/GameCoverImages/Wallace & Gromit in Project Zoo.jpg"
@@ -93,6 +129,17 @@ export default function GameCardGrid() {
         titleText="Wallace & Gromit in Project Zoo"
         developerText="Frontier Developments"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/30887-wallace-&-gromit-in-project-zoo"
+        favorited="true"
+        firstTimeViewed="true"
+      />
+      <GameCard
+        imageSource="/GameCoverImages/Meet the Robinsons.jpg"
+        altText="Meet The Robinsons"
+        titleText="Meet The Robinsons"
+        developerText="Avalanche Software"
+        launchBoxLink="https://gamesdb.launchbox-app.com/games/details/6708-meet-the-robinsons"
+        favorited="true"
+        firstTimeViewed="false"
       />
       <GameCard
         imageSource="/GameCoverImages/Wario World.jpg"
@@ -100,6 +147,8 @@ export default function GameCardGrid() {
         titleText="Wario World"
         developerText="Treasure"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/2206-wario-world"
+        favorited="true"
+        firstTimeViewed="false"
       />
       <GameCard
         imageSource="/GameCoverImages/WarioWare, Inc.- Mega Party Game$!.jpg"
@@ -107,6 +156,8 @@ export default function GameCardGrid() {
         titleText="WarioWare, Inc.: Mega Party Game$!"
         developerText="Intelligent Systems"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/6772-warioware,-inc.:-mega-party-game$!"
+        favorited="true"
+        firstTimeViewed="false"
       />
       <GameCard
         imageSource="/GameCoverImages/Wave Race- Blue Storm.jpg"
@@ -114,6 +165,8 @@ export default function GameCardGrid() {
         titleText="Wave Race: Blue Storm"
         developerText="Nintendo STC"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/2207-wave-race:-blue-storm"
+        favorited="true"
+        firstTimeViewed="false"
       />
       <GameCard
         imageSource="/GameCoverImages/Whirl Tour.jpg"
@@ -121,6 +174,8 @@ export default function GameCardGrid() {
         titleText="Whirl Tour"
         developerText="Papaya Studios"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/30661-whirl-tour"
+        favorited="true"
+        firstTimeViewed="false"
       />
       <GameCard
         imageSource="/GameCoverImages/World Series of Poker.jpg"
@@ -128,6 +183,8 @@ export default function GameCardGrid() {
         titleText="World Series of Poker"
         developerText="Papaya Studios"
         launchBoxLink="https://gamesdb.launchbox-app.com/games/details/30888-world-series-of-poker"
+        favorited="true"
+        firstTimeViewed="false"
       />
     </div>
   );
