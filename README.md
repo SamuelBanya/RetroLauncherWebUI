@@ -8,9 +8,9 @@ This would give users an exciting approach to managing their games, and to not f
 
 ## Screenshots:
 
-![Screenshot 1](/AppScreenshots/AppScreenshot1.png)
-![Screenshot 2](/AppScreenshots/AppScreenshot2.png)
-![Screenshot 3](/AppScreenshots/AppScreenshot3.png)
+![Screenshot 1](/retrolauncherwebui/public/AppScreenshots/AppScreenshot1.png)
+![Screenshot 2](/retrolauncherwebui/public/AppScreenshots/AppScreenshot2.png)
+![Screenshot 3](/retrolauncherwebui/public/AppScreenshots/AppScreenshot3.png)
 
 ## Deployment Instructions
 
